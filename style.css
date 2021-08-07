@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ebf6e5;
+    background-image: url();
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav .logo img {
+    margin-right: 35px;
+    margin-left: 5px;
+}
+nav .logo a:hover{
+    cursor: pointer;
+    color: rgb(253, 178, 80);
+}
+.my_nav{
+    box-shadow: 2px 3px 18px rgba(0,0,0,0.3);
+    border-bottom: 4px solid green;
+}
+.donate .card{
+    margin-top: -60px;
+    background-color: rgba(252, 158, 158, 0.11);
+    box-shadow: 3px 3px 35px rgba(0,0,0,0.8);
+    padding-top: 10px;
+}
+.donate .card .card-body a{
+    margin-bottom: 15px;
+}
